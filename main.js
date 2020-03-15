@@ -2,7 +2,7 @@
 
 console.log("for loop");
 let arrayObj=[1,2,3,"javascript",5];
-for(let counter=0;counter<=arrayObj.length-1;counter++)
+for(let counter=0;counter<arrayObj.length;counter++)
 {
     console.log(arrayObj[counter]);
 }
@@ -28,7 +28,7 @@ for(let numValue in arrayObj)
 
 console.log("while loop");
 var counter=0;
-while(counter <= arrayObj.length-1)
+while(counter < arrayObj.length)
 {
     console.log(arrayObj[counter]);
     counter++;
@@ -40,4 +40,4 @@ console.log("do while loop");
 do{
     console.log(arrayObj[counter]);
     counter++;
-}while(counter<=arrayObj.length-1)
+}while(counter<arrayObj.length)
